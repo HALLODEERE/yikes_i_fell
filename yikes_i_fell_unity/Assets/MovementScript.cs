@@ -67,8 +67,8 @@ public class MovementScript : MonoBehaviour
 
         rb.AddForce(movement * speed);
 
-        Debug.Log(speed);
-        Debug.Log(Input.GetKeyDown(KeyCode.LeftShift));
+        //Debug.Log(speed);
+        //Debug.Log(Input.GetKeyDown(KeyCode.LeftShift));
     }
 
     public void Jump()
