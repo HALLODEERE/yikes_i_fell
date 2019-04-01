@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//PROBABLY UNNECESSARY DUE TO TOGGLE SCRIPT BEING UNNECESSARY!!!!!!!!!!!!!!!!!!!!!!
+
 public class DoorScriptToggle : MonoBehaviour
 {
     //Animator CellDoor;

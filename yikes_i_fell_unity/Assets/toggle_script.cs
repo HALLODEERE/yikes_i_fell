@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//THIS SCRIPT IS UNNECESSARY AND CAN BE DELETED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 public class toggle_script : MonoBehaviour
 {
     Toggle m_Toggle;
-    public Text m_Text;
+    //public Text m_Text;
+    public bool toggleState;
     public DoorScript theMainDoorScript;
+
     void Start()
     {
-        //Fetch the Toggle GameObject
+
+     /* //Fetch the Toggle GameObject
         m_Toggle = GetComponent<Toggle>();
         //Add listener for when the state of the Toggle changes, to take action
         m_Toggle.onValueChanged.AddListener(delegate {
@@ -26,7 +31,7 @@ public class toggle_script : MonoBehaviour
     {
         //m_Text.text = "New Value : " + m_Toggle.isOn;
         Debug.Log("toggle value changed");
-        theMainDoorScript.Open();
+        theMainDoorScript.Open();           */
 
     }
 }
