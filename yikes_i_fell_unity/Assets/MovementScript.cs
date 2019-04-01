@@ -5,7 +5,6 @@ using System.Collections.Generic;
 public class MovementScript : MonoBehaviour
 {
     public float speed;
-
     private Rigidbody rb;
 
     // Start is called before the first frame update
@@ -46,6 +45,7 @@ public class MovementScript : MonoBehaviour
 
     void FixedUpdate()
     {
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
             speed = 100;
