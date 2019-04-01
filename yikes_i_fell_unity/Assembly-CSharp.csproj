@@ -64,9 +64,11 @@
     <Compile Include="Assets\ChangeCamera.cs" />
     <Compile Include="Assets\DestroyplaneInFrontOfCam2.cs" />
     <Compile Include="Assets\DoorScript.cs" />
+    <Compile Include="Assets\DoorScriptToggle.cs" />
     <Compile Include="Assets\MovementScript.cs" />
     <Compile Include="Assets\notes.cs" />
     <Compile Include="Assets\TESTBUTTONSCRIPT.cs" />
+    <Compile Include="Assets\toggle_script.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/thoma/OneDrive/Winter 2019/Game Dev Club/yikes_i_fell/yikes_i_fell_unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
