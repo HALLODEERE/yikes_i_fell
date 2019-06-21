@@ -71,7 +71,6 @@
     <Compile Include="Assets\InteractConsole.cs" />
     <Compile Include="Assets\InteractDoor.cs" />
     <Compile Include="Assets\InteractKey.cs" />
-    <Compile Include="Assets\MovementRot.cs" />
     <Compile Include="Assets\MovementScript.cs" />
     <Compile Include="Assets\notes.cs" />
     <Compile Include="Assets\SpeakProphet.cs" />
