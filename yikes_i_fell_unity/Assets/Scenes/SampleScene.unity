@@ -583,7 +583,7 @@ GameObject:
   - component: {fileID: 320454912}
   - component: {fileID: 320454911}
   - component: {fileID: 320454910}
-  - component: {fileID: 320454914}
+  - component: {fileID: 320454915}
   m_Layer: 0
   m_Name: Bed
   m_TagString: Untagged
@@ -664,7 +664,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &320454914
+--- !u!114 &320454915
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -673,7 +673,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 320454909}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b598e74af4fba240a5ea6228d8b02d7, type: 3}
+  m_Script: {fileID: 11500000, guid: b55ce6120252ba041a324469674514e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enter: 1
@@ -681,7 +681,6 @@ MonoBehaviour:
   exit: 1
   message: You woke up here. It's quite uncomfortable, even for you.
   toggle: 0
-  text: {fileID: 0}
 --- !u!1 &332899078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,6 +1221,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b55ce6120252ba041a324469674514e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enter: 1
+  stay: 1
+  exit: 1
+  message: 
+  toggle: 0
 --- !u!4 &445544188 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ba140efd4a6bf7b4abefa6332a464dc2,
@@ -1717,6 +1721,23 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 815939976}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &571970559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571970557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b55ce6120252ba041a324469674514e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enter: 1
+  stay: 1
+  exit: 1
+  message: It's locked.
+  toggle: 0
 --- !u!114 &571970560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1729,25 +1750,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44ca711084de14147b281931aff41572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &571970561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571970557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4901473ebec7c04f8c978f4bddab288, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enter: 1
-  stay: 1
-  exit: 1
-  message: "\xCFt's locked."
-  toggle: 0
-  text: {fileID: 0}
-  door: {fileID: 180967536}
 --- !u!65 &571970562
 BoxCollider:
   m_ObjectHideFlags: 0
