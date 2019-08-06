@@ -67,9 +67,8 @@
     <Compile Include="Assets\DoorScriptToggle.cs" />
     <Compile Include="Assets\Enable_Movement.cs" />
     <Compile Include="Assets\followChara.cs" />
-    <Compile Include="Assets\InteractBed.cs" />
+    <Compile Include="Assets\Interact.cs" />
     <Compile Include="Assets\InteractConsole.cs" />
-    <Compile Include="Assets\InteractDoor.cs" />
     <Compile Include="Assets\InteractKey.cs" />
     <Compile Include="Assets\MovementScript.cs" />
     <Compile Include="Assets\notes.cs" />
