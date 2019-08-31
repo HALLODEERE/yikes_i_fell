@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AIClickMovementScript1.cs" />
     <Compile Include="Assets\BlinkingTerminalScreen.cs" />
     <Compile Include="Assets\ChangeCamera.cs" />
     <Compile Include="Assets\DestroyplaneInFrontOfCam2.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Assets\InteractConsole.cs" />
     <Compile Include="Assets\InteractKey.cs" />
     <Compile Include="Assets\MovementScript.cs" />
+    <Compile Include="Assets\MoveToClick.cs" />
     <Compile Include="Assets\notes.cs" />
     <Compile Include="Assets\SpeakProphet.cs" />
     <Compile Include="Assets\TESTBUTTONSCRIPT.cs" />
