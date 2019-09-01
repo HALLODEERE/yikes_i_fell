@@ -72,7 +72,7 @@
     <Compile Include="Assets\InteractConsole.cs" />
     <Compile Include="Assets\InteractKey.cs" />
     <Compile Include="Assets\MovementScript.cs" />
-    <Compile Include="Assets\MoveToClick.cs" />
+    <Compile Include="Assets\MoveToClickTheSecond.cs" />
     <Compile Include="Assets\notes.cs" />
     <Compile Include="Assets\SpeakProphet.cs" />
     <Compile Include="Assets\TESTBUTTONSCRIPT.cs" />
