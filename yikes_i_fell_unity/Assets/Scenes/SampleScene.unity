@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657773, g: 0.49641502, b: 0.57481813, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657785, g: 0.49641526, b: 0.5748186, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -934,6 +934,7 @@ GameObject:
   - component: {fileID: 379248088}
   - component: {fileID: 379248087}
   - component: {fileID: 379248081}
+  - component: {fileID: 379248089}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -954,7 +955,7 @@ CapsuleCollider:
   m_Radius: 0.3
   m_Height: 3
   m_Direction: 1
-  m_Center: {x: 1.25, y: -2.9, z: -7.3}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &379248082
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -969,7 +970,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 116
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!33 &379248083
 MeshFilter:
@@ -987,7 +988,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379248080}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.26, y: 4.21, z: 4.24}
+  m_LocalPosition: {x: -0.02, y: 1.24, z: -3.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 445818121}
@@ -1054,6 +1055,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &379248089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379248080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66794d739dc4f244dbfeca4354b1a0c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 100
 --- !u!1001 &406944402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1393,27 +1407,27 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 32e62974640d2fa40b7b1f0f0f1a48e8, type: 2}
     - target: {fileID: 400050, guid: 985245008c60dab4593ce8bf0c82f7f5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.27
+      value: 0.02999999
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 985245008c60dab4593ce8bf0c82f7f5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.22
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 985245008c60dab4593ce8bf0c82f7f5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.36
+      value: 0.069999695
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 985245008c60dab4593ce8bf0c82f7f5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 985245008c60dab4593ce8bf0c82f7f5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 985245008c60dab4593ce8bf0c82f7f5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 985245008c60dab4593ce8bf0c82f7f5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1708,7 +1722,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 379248084}
   smoothSpeed: 0.125
-  offset: {x: 5, y: 5, z: -10}
+  offset: {x: 3, y: 5, z: -1}
 --- !u!1 &571970557 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: f6c0443eadbc43444ac1bad748442934,
